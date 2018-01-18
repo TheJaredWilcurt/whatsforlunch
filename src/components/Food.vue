@@ -15,6 +15,9 @@
     </ol>
     <button class="button-ter" @click="buildList">These all suck</button>
     Showing <input type="number" min="1" :max="cap" v-model="amount" @change="fillOutList"> out of {{ cap }}
+    <div>
+        <a href="https://github.com/TheJaredWilcurt/whatsforlunch/blob/gh-pages/static/data/foods.json">Edit food list</a>
+    </div>
   </div>
 </template>
 
